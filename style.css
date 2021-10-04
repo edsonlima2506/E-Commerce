@@ -1,0 +1,295 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Banner */
+
+#logo{
+    width: 120px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.icon{
+    width: 20px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#linha1{
+    margin-top: 35px;
+    width: 97%;
+    color: #EDE9ED;
+}
+#banner{
+    margin-top: 20px;
+    margin-left: 50px;
+    height: 650px;
+}
+#welcome{
+    font-family: arial;
+    font-weight: 100;
+    margin-top: 100px;
+    color: #372169;
+    position: absolute;
+    z-index: 4;
+}
+#tituloPrincipal{
+    font-family: arial;
+    font-size: 80px;
+    font-weight: 700;
+    margin-top: 150px;
+    color: #382E50;
+    position: absolute;
+    z-index: 3;
+}
+#startShopping{
+    width: 200px;
+    height: 60px;
+    background-color: #FDA426;
+    color: #FFF;
+    font-family: arial;
+    font-weight: 700;
+    font-size: 17px;
+    text-align: left;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    z-index: 2;
+    top: 500px;
+}
+#startShopping:hover{
+    background: none;
+    border: 2px solid #FDA426;
+    color: #FDA426;
+    cursor: pointer;
+}
+#woman{
+    position: absolute;
+    z-index: 1;
+    width: 800px;
+    height: 600px;
+    left: 500px;
+}
+#menu{
+    position: relative;
+    z-index: 5;
+    float: right;
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+#menu li{
+    font-family: arial;
+    list-style: none;
+    color: #C4BDCF;
+    margin-top: 50px;
+}
+#menu li:hover{
+    cursor: pointer;
+    color: #372169;;
+}
+#linha2{
+    color: #EDE9ED;
+}
+#categorias li{
+    display: inline-block;
+    list-style: none;
+    font-family: arial;
+    font-size: 25px;
+    color: #C4BDCF;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 10px;
+}
+#categorias li:hover{
+    color: #372169;
+    cursor: pointer;
+}
+
+/* Destaque */
+
+#conteudo{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 100px;
+}
+#produtoEmDestaque{
+    height: 350px;
+    width: 1100px;
+    background-color: #281849;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    position: absolute;
+    z-index: 1;
+}
+#contem{
+    float: right;
+}
+#tituloProdutoDestaque{
+    color: #FFF;
+    font-family: arial;
+    font-size: 25px;
+    float: right;
+    margin-right: 90px;
+    margin-top: 50px;
+}
+#descricaoProduto{
+    margin-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #C4BDCF;
+}
+#learnMore{
+    margin-top: 20px;
+    width: 180px;
+    height: 65px;
+    background: none;
+    border: 1px solid #FFF;
+    border-radius: 15px;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+#learnMore:hover{
+    background-color: #FFF;
+    color: #281849;
+    cursor: pointer;
+}
+#camiseta{
+    width: 350px;
+    position: relative;
+    z-index: 2;
+    margin-right: 500px;
+    margin-bottom: 120px;
+    border-radius: 20px;
+}
+
+/* mais vendidos */
+
+#tituloMaisVendidos{
+    color: #281849;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    margin-left: 125px;
+}
+#salto{
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 125px;
+}
+.produtosMenores{
+    width: 350px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+#colors{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #C4BDCF;
+    margin-left: 125px;
+}
+#nomeProduto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    margin-left: 125px;
+    margin-top: -20px;
+    color: #281849;
+    display: inline-block;
+}
+#preco{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    margin-left: 25px;
+    margin-top: -20px;
+    display: inline-block;
+    color: #FDA426;
+}
+#linha3{
+    width: 400px;
+    color: #C4BDCF;
+    margin-left: 125px;
+    margin-top: -5px;
+}
+
+/* contato */
+
+#contemContato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+#contatos{
+    width: 95%;
+    height: 500px;
+    background-color: #281849;
+    border-radius: 40px;
+    margin-bottom: 30px;
+}
+#newsletter{
+    float: right;
+}
+#subscribe{
+    color: white;
+    margin-right: 250px;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 55px;
+}
+#inputEmail{
+    margin-right: 250px;
+    background: none;
+    border: none;
+    border-bottom: #FDA426 2px solid;
+    color: #FDA426;
+    font-size: 25px;
+}
+#rights{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+    margin-top: 228px;
+}
+#discover{
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #C4BDCF;
+}
+#linha4{
+    margin-top: 130px;
+    width: 98%;
+    color: #C4BDCF;
+}
+#social{
+    display: flex;
+}
+#ourSocial{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.socialLogo{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#menuFinal{
+    display: flex;
+    list-style: none;
+    margin-left: 330px;
+}
+#menuFinal li{
+    margin-left: 25px;
+    margin-right: 45px;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
