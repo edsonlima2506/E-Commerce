@@ -12,10 +12,10 @@
 ### Antes de começar a desenvolver
 
 1. Clone o repositório
-  * `git clone git@github.com:edsonlima2506/CyberStore.git`.
+  * `git clone git@github.com:edsonlima2506/E-Commerce.git`.
   * Entre na pasta do repositório que você acabou de clonar:
-    * `cd CyberStore`
-    * 
+    * `cd E-Commerce`
+ 
 2. Crie uma branch a partir da branch `master`
   * Verifique que você está na branch `master`
     * Exemplo: `git branch`
