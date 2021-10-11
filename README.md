@@ -3,9 +3,11 @@
   Projeto para treino de criação do Front-End de páginas <br>
   Habilidades treinadas: HTML semântico, CSS,Flexbox.
 </p>
+
 <h1>Resultado final:</h1>
 
-![psmarwa](https://user-images.githubusercontent.com/81549048/135845759-144f8d48-8434-40be-b8b8-5732df3af88c.png)
+![AwesomeScreensho_2_](https://user-images.githubusercontent.com/81549048/136830536-e3e4158c-9af7-4fbd-a077-7a46223b3941.gif)
+
 
 ## Instruções para baixar os arquivos
 
